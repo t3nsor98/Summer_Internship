@@ -54,7 +54,7 @@ function TodoList({ filter }) {
   };
 
   return (
-    <div className="p-4">
+    <div className="p-4 bg-white rounded-lg shadow-lg">
       <form onSubmit={addTodo} className="flex mb-4">
         <input
           type="text"

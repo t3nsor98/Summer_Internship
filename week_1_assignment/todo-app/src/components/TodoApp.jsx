@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import TodoList from "./TodoList";
 import EditTodo from "./EditTodo";
+import Clock from "./Clock";
+import Quote from "./Quote";
 
 function TodoApp() {
   return (
@@ -17,6 +19,7 @@ function TodoApp() {
             <h1 className="text-white text-3xl font-extrabold text-center">
               Awesome Todo App
             </h1>
+
             <nav className="mt-4 flex justify-center space-x-4">
               <NavLink
                 to="/"
@@ -50,7 +53,7 @@ function TodoApp() {
               </NavLink>
             </nav>
           </header>
-
+          <Clock />
           <Routes>
             <Route path="/" element={<TodoList filter="all" />} />
             <Route path="/active" element={<TodoList filter="active" />} />
@@ -61,6 +64,7 @@ function TodoApp() {
             <Route path="/edit/:id" element={<EditTodo />} />
           </Routes>
         </div>
+        <Quote />
       </div>
     </Router>
   );
