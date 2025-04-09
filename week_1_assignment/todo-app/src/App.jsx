@@ -1,10 +1,12 @@
-import "./App.css";
+import React from "react";
+import TodoApp from "./components/TodoApp";
+import "./index.css";
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl">Hello</h1>
-    </>
+    <div className="App">
+      <TodoApp />
+    </div>
   );
 }
 
