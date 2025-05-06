@@ -36,7 +36,7 @@ Deployment is the process of making your web application accessible to real user
 3. **Prepare your backend:** Ensure your Express app is production-ready, with environment variables and cloud database connections.
 4. **Deploy backend:** Push your backend code to GitHub, then deploy it on Render or Railway. Set up environment variables and connect to MongoDB Atlas.
 5. **Connect frontend and backend:** Update API URLs in your frontend to point to the deployed backend.
-6. **Submit your project:** Share your GitHub repository link, including clear documentation (README.md) on setup, usage, and deployment steps[3][4][5][6].
+6. **Submit your project:** Share your GitHub repository link, including clear documentation (README.md) on setup, usage, and deployment steps.
 
 ---
 
@@ -55,4 +55,4 @@ Deployment is the process of making your web application accessible to real user
 
 ---
 
-Deployment is the bridge between development and real-world usage, turning your MERN project into a live application ready for users and stakeholders[3][4][5][6].
+Deployment is the bridge between development and real-world usage, turning your MERN project into a live application ready for users and stakeholders.
